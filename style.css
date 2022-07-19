@@ -100,6 +100,10 @@ body {
     margin: 165px;
 }
 
+.popular-title {
+    text-align: center;
+}
+
 .fa-star {
     color: #FB8200;
 }
@@ -120,4 +124,20 @@ body {
 .prod-info {
     display: flex;
     align-items: center;
+}
+
+.all-products {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-left: 196px;
+    margin-right: 197px;
+}
+
+.prod-box-design {
+    padding-left: 14px;
+    padding-top: 17px;
+    padding-right: 15px;
+    box-shadow: -8px -4px 9px -8px rgba(0, 0, 0, 0.95);
+    border-radius: 5px;
+
 }
